@@ -45,7 +45,7 @@ export default () => {
                 </a>
               </div>
             </div>
-            <div className="prose prose-sm sm:prose lg:prose-lg xl:prose-2xl mx-auto">
+            <div className="prose sm:prose-lg md:prose-xl xl:prose-2xl mx-auto">
               <MarkdownSample />
             </div>
           </div>

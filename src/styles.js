@@ -13,6 +13,7 @@ module.exports = (theme) => ({
   DEFAULT: {
     css: [
       {
+        fontFamily: theme('fontFamily.serif', defaultTheme.fontFamily.serif),
         color: theme('colors.gray.700', defaultTheme.colors.gray[700]),
         maxWidth: '65ch',
         '[class~="lead"]': {
